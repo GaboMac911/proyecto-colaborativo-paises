@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra superior */
+.navbar {
+  background: #c62828;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.menu a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+.seccion {
+  display: none;
+  padding: 40px;
+}
+.seccion.activa {
+  display: block;
+}
+
+.contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.imagen img {
+  max-width: 350px;
+  border-radius: 8px;
+}
+
+.texto {
+  max-width: 600px;
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  background: #c62828;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
